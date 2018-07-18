@@ -1,7 +1,7 @@
 # OpenSimConsoleClient
 Eine Qt basierter Client für die OpenSimulator REST Konsole (Fernbedienung des OpenSimulators)
 
-Dies ist die Deutsche Version
+Dies ist die Deutsche Version kompiliert auf Windows 10 64bit.
 
 Das kompilieren ist etwas kniffelig deswegen ist in der ZIP Datei ConsoleClientGerman.zip alles fertig drin.
 
