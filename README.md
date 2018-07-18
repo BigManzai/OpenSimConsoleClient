@@ -28,7 +28,11 @@ Ihr müsst aber in jeder OpenSim.ini die Rest Konsole einschalten und den OpenSi
 
 # Starteigenschaften
      OpenSim.exe -console rest
+     
 oder so
+
      mono OpenSim.exe -console rest
+     
 oder so
+
      screen -fa -S OS -d -U -m mono OpenSim.exe -console rest
