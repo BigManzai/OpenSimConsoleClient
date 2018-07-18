@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Opensimulator Remote Console Client</string>
+   <string>Opensimulator Fernsteuerung</string>
   </property>
   <widget class="QWidget" name="centralWidget">
    <layout class="QVBoxLayout" name="verticalLayout_3">
@@ -44,8 +44,11 @@
        <layout class="QVBoxLayout" name="verticalLayout">
         <item>
          <widget class="QLabel" name="label">
+          <property name="toolTip">
+           <string>Hier befinden sich alle ihre gespeicherten Verbindungen.</string>
+          </property>
           <property name="text">
-           <string>Connections</string>
+           <string>Verbindungen</string>
           </property>
          </widget>
         </item>
@@ -79,18 +82,18 @@
      <x>0</x>
      <y>0</y>
      <width>1107</width>
-     <height>22</height>
+     <height>24</height>
     </rect>
    </property>
    <widget class="QMenu" name="menu_File">
     <property name="title">
-     <string>&amp;File</string>
+     <string>&amp;Datei</string>
     </property>
     <addaction name="action_Exit"/>
    </widget>
    <widget class="QMenu" name="menu_Connection">
     <property name="title">
-     <string>&amp;Connection</string>
+     <string>&amp;Verbindung</string>
     </property>
     <addaction name="action_Connect"/>
     <addaction name="action_Disconnect"/>
@@ -125,7 +128,7 @@
    </widget>
    <widget class="QMenu" name="menuHelp">
     <property name="title">
-     <string>&amp;Help</string>
+     <string>&amp;Hilfe</string>
     </property>
     <addaction name="action_About"/>
    </widget>
@@ -161,7 +164,7 @@
      <normaloff>:/Icons/system-log-out.png</normaloff>:/Icons/system-log-out.png</iconset>
    </property>
    <property name="text">
-    <string>&amp;Exit</string>
+    <string>&amp;Ende</string>
    </property>
   </action>
   <action name="action_Connect">
@@ -170,7 +173,7 @@
      <normaloff>:/Icons/network-transmit-receive.png</normaloff>:/Icons/network-transmit-receive.png</iconset>
    </property>
    <property name="text">
-    <string>&amp;Connect</string>
+    <string>&amp;Verbinden</string>
    </property>
   </action>
   <action name="action_Disconnect">
@@ -179,7 +182,7 @@
      <normaloff>:/Icons/network-offline.png</normaloff>:/Icons/network-offline.png</iconset>
    </property>
    <property name="text">
-    <string>&amp;Disconnect</string>
+    <string>&amp;Trennen</string>
    </property>
   </action>
   <action name="action_New">
@@ -188,7 +191,7 @@
      <normaloff>:/Icons/document-new.png</normaloff>:/Icons/document-new.png</iconset>
    </property>
    <property name="text">
-    <string>&amp;New...</string>
+    <string>&amp;Neu...</string>
    </property>
   </action>
   <action name="action_Edit">
@@ -197,7 +200,7 @@
      <normaloff>:/Icons/document-properties.png</normaloff>:/Icons/document-properties.png</iconset>
    </property>
    <property name="text">
-    <string>&amp;Edit...</string>
+    <string>&amp;Bearbeiten</string>
    </property>
   </action>
   <action name="actionDelete">
@@ -206,7 +209,7 @@
      <normaloff>:/Icons/edit-delete.png</normaloff>:/Icons/edit-delete.png</iconset>
    </property>
    <property name="text">
-    <string>Delete</string>
+    <string>Löschen</string>
    </property>
   </action>
   <action name="actionNew_group">
@@ -215,12 +218,12 @@
      <normaloff>:/Icons/folder.png</normaloff>:/Icons/folder.png</iconset>
    </property>
    <property name="text">
-    <string>Add &amp;group ...</string>
+    <string>&amp;Gruppe hinzufügen ...</string>
    </property>
   </action>
   <action name="actionDelete_group">
    <property name="text">
-    <string>Delete group</string>
+    <string>Gruppe löschen</string>
    </property>
   </action>
   <action name="action_Restart">
@@ -238,7 +241,7 @@
      <normaloff>:/Icons/edit-clear.png</normaloff>:/Icons/edit-clear.png</iconset>
    </property>
    <property name="text">
-    <string>&amp;Clear text</string>
+    <string>&amp;Löschen</string>
    </property>
   </action>
   <action name="actionCopy">
@@ -247,7 +250,7 @@
      <normaloff>:/Icons/edit-copy.png</normaloff>:/Icons/edit-copy.png</iconset>
    </property>
    <property name="text">
-    <string>Copy</string>
+    <string>Kopieren</string>
    </property>
   </action>
   <action name="actionNew_in_group">
@@ -256,7 +259,7 @@
      <normaloff>:/Icons/document-new.png</normaloff>:/Icons/document-new.png</iconset>
    </property>
    <property name="text">
-    <string>New in group...</string>
+    <string>Neue Gruppe</string>
    </property>
   </action>
   <action name="action_Preferences">
@@ -265,12 +268,12 @@
      <normaloff>:/Icons/systemPreferences.png</normaloff>:/Icons/systemPreferences.png</iconset>
    </property>
    <property name="text">
-    <string>&amp;Preferences</string>
+    <string>&amp;Einstellungen</string>
    </property>
   </action>
   <action name="action_About">
    <property name="text">
-    <string>&amp;About...</string>
+    <string>&amp;Information</string>
    </property>
   </action>
  </widget>

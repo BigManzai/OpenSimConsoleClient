@@ -156,7 +156,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>Password</string>
+     <string>Passwort</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="pass">
