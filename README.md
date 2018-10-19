@@ -35,12 +35,15 @@ Ihr müsst in jeder OpenSim.ini die rest console einschalten und den OpenSimulat
          http_listener_port = 9000
 
 # Starteigenschaften
+
+Windows
+
      OpenSim.exe -console rest
      
-oder so
+oder Linux so
 
      mono OpenSim.exe -console rest
      
-oder im screen so
+oder Linux im screen so
 
      screen -fa -S OS -d -U -m mono OpenSim.exe -console rest
