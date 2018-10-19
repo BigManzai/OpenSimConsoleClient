@@ -17,7 +17,7 @@ Mac: http://opensimulator.org/downloads/ConsoleClient.dmg
 
 Ihr müsst in jeder OpenSim.ini die rest console einschalten und den OpenSimulator folgendermaßen starten:
 
-# Auszug OpenSim.ini
+# Änderungen an der OpenSim.ini
      [Network]
          ;# {ConsoleUser} {} {User name for console account} {}
          ;; Configure the remote console user here. This will not actually be used
