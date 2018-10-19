@@ -1,5 +1,5 @@
 # OpenSimConsoleClient
-Eine Qt basierter Client für die OpenSimulator REST Konsole (Fernbedienung des OpenSimulators)
+Ein Qt basierter Client für die OpenSimulator (Fernbedienung des OpenSimulators)
 
 Die ist die Deutsche Version kompiliert auf Windows 10 64bit.
 
@@ -7,7 +7,7 @@ Das kompilieren ist etwas kniffelig deswegen ist in der ZIP Datei ConsoleClientG
 
 Ihr braucht das nur entpacken und starten.
 
-Ihr müsst aber in jeder OpenSim.ini die Rest Konsole einschalten und den OpenSimulator folgendermaßen starten:
+Ihr müsst aber in jeder OpenSim.ini die rest console einschalten und den OpenSimulator folgendermaßen starten:
 
 # Auszug OpenSim.ini
      [Network]
@@ -33,6 +33,6 @@ oder so
 
      mono OpenSim.exe -console rest
      
-oder so
+oder im screen so
 
      screen -fa -S OS -d -U -m mono OpenSim.exe -console rest
