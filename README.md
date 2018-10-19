@@ -3,6 +3,12 @@ Ein Qt basierter Client für die OpenSimulator (Fernbedienung des OpenSimulators
 
 Die ist die Deutsche Version kompiliert auf Windows 10 64bit.
 
+Download Original Kompiliert:
+
+Windows: http://opensimulator.org/downloads/ConsoleClient.zip
+
+Mac: http://opensimulator.org/downloads/ConsoleClient.dmg 
+
 Das kompilieren ist etwas kniffelig deswegen ist in der ZIP Datei ConsoleClientGerman.zip alles fertig drin.
 
 Ihr braucht das nur entpacken und starten.
